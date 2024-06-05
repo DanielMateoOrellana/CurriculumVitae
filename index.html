@@ -5,89 +5,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Currículum Vitae</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-
-        h1,
-        h2,
-        h3 {
-            color: #333;
-        }
-
-        p {
-            margin-bottom: 10px;
-        }
-
-        .section {
-            margin-bottom: 20px;
-        }
-    </style>
+    <meta name="description" content="Currículum Vitae de Daniel Alfredo Mateo Orellana">
+    <meta name="keywords" content="currículum, vitae, Daniel Alfredo Mateo Orellana, CV, desarrollador, ingeniero">
+    <meta name="author" content="Daniel Alfredo Mateo Orellana">
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
-    <div class="section">
-        <h1>Información Personal</h1>
+    <header>
+        <h1>Daniel Alfredo Mateo Orellana</h1>
+        <p>Teléfono: 0986174238 | Correo Electrónico: damateo@espol.edu.ec | Dirección: Guayaquil</p>
+    </header>
+
+    <div class="profile-picture">
+        <img src="img/perfil.jpg" alt="Foto de Daniel Alfredo Mateo Orellana" class="square-img">
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#informacion-personal">Información Personal</a></li>
+            <li><a href="#objetivo-profesional">Objetivo Profesional</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades-tecnicas">Habilidades Técnicas</a></li>
+            <li><a href="#proyectos-destacados">Proyectos Destacados</a></li>
+            <li><a href="#certificaciones-cursos">Certificaciones y Cursos</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#contacto">Formulario de Contacto</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#redes-sociales">Redes Sociales</a></li>
+        </ul>
+    </nav>
+
+    <section id="informacion-personal" class="section">
+        <h2>Información Personal</h2>
         <p><strong>Nombre:</strong> Daniel Alfredo Mateo Orellana</p>
         <p><strong>Teléfono:</strong> 0986174238</p>
         <p><strong>Correo Electrónico:</strong> damateo@espol.edu.ec</p>
         <p><strong>Dirección:</strong> Guayaquil</p>
-    </div>
+    </section>
 
+    <section id="objetivo-profesional" class="section">
+        <h2>Objetivo Profesional</h2>
+        <p>Como un apasionado estudiante de Ingeniería en Computación con un 60% de mi carrera completada, mi objetivo profesional es integrarme en una organización dinámica donde pueda aplicar mis conocimientos en desarrollo de software, contribuir a proyectos innovadores y seguir aprendiendo y creciendo profesionalmente. Aspiro a trabajar en entornos colaborativos que me permitan adquirir experiencia práctica y me preparen para enfrentar los desafíos del mundo tecnológico actual.</p>
+        <h3>Inspiración</h3>
+        <video width="600" controls>
+            <source src="img/turing.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </section>
 
-    <div class="section">
-        <h2 class="titulo">Objetivo Profesional</h2>
-        <p>Tu objetivo profesional aquí.</p>
-    </div>
-
-    <div class="section" id="miDiv">
-        <h2 class="titulo">Experiencia Laboral</h2>
-        <p><strong>Empresa:</strong> Nombre de la Empresa</p>
-        <p><strong>Cargo:</strong> Tu Cargo</p>
-        <p><strong>Fecha de Inicio - Fecha de Finalización:</strong> MM/AAAA - MM/AAAA</p>
-        <p>Descripción de mis responsabilidades y logros en este trabajo.</p>
-    </div>
-
-    <div class="section" id="miniDiv">
-        <h2 class="titulo">Educación</h2>
+    <section id="educacion" class="section">
+        <h2>Educación</h2>
         <p><strong>Institución:</strong> Escuela Superior Politécnica del Litoral</p>
-        <p><strong>Título:</strong> Ingeniero en Computación</p>
-        <p><strong>Fecha de Graduación:</strong> 07/2025</p>
-    </div>
+        <p><strong>Título:</strong> Ingeniería en Computación (En progreso, 60% completado)</p>
+        <p><strong>Fecha de Graduación:</strong> 07/2025 (Estimado)</p>
+    </section>
 
-    <div class="section">
-        <h2 class="titulo">Habilidades Técnicas</h2>
-        <p>Mis habilidades técnicas aquí, como lenguajes de programación, frameworks, etc.</p>
-    </div>
+    <section id="habilidades-tecnicas" class="section">
+        <h2>Habilidades Técnicas</h2>
+        <p>Poseo una sólida formación en diversos lenguajes de programación y herramientas de desarrollo. Mis habilidades técnicas incluyen:</p>
+        <ul>
+            <li>Lenguajes de programación: C, Python, JavaScript, Java, Ruby, Flutter, Go</li>
+            <li>Frameworks y herramientas: Desarrollo frontend y backend, PHP, frameworks de Python</li>
+            <li>Desarrollo de aplicaciones móviles y web</li>
+            <li>Conocimientos en bases de datos y manejo de datos</li>
+        </ul>
+    </section>
 
-    <div class="section">
-        <h2 class="titulo">Proyectos Destacados</h2>
-        <p>Descripción de mis proyectos destacados, tu rol, las tecnologías utilizadas, etc.</p>
-    </div>
+    <section id="proyectos-destacados" class="section">
+        <h2>Proyectos Destacados</h2>
+        <p><strong>Proyecto 1:</strong> Sistema de Gestión de Inventarios</p>
+        <p><strong>Descripción:</strong> Desarrollo de un sistema integral para la gestión de inventarios utilizando Python y Django. Mi rol incluyó el diseño de la base de datos, desarrollo de funcionalidades clave y la implementación de la interfaz de usuario. Logré mejorar la eficiencia del seguimiento de inventarios en un 30%.</p>
+        
+        <p><strong>Proyecto 2:</strong> Aplicación Móvil de Tareas</p>
+        <p><strong>Descripción:</strong> Creación de una aplicación móvil para la gestión de tareas diarias utilizando Flutter. Mi rol abarcó desde el diseño de la interfaz de usuario hasta la implementación de las funcionalidades backend con Firebase. La aplicación ha sido descargada más de 1000 veces y cuenta con una calificación de 4.5 estrellas en la tienda de aplicaciones.</p>
+    </section>
 
-    <div class="section">
-        <h2 class="titulo">Certificaciones y Cursos</h2>
-        <p>Mis certificaciones y cursos adicionales aquí.</p>
-    </div>
+    <section id="certificaciones-cursos" class="section">
+        <h2>Certificaciones y Cursos</h2>
+        <p>He complementado mi formación académica con diversos cursos y certificaciones, entre los que se destacan:</p>
+        <ul>
+            <li>Certificación en Inglés Avanzado (convalidado)</li>
+            <li>Cursos de PHP en Platzi</li>
+            <li>Cursos de desarrollo web y móvil en Platzi</li>
+        </ul>
+    </section>
 
-    <div class="section">
-        <h2 class="titulo">Idiomas</h2>
-        <p>Mis habilidades en idiomas aquí.</p>
-    </div>
+    <section id="idiomas" class="section">
+        <h2>Idiomas</h2>
+        <p>Mis habilidades lingüísticas incluyen:</p>
+        <ul>
+            <li>Español: Nativo</li>
+            <li>Inglés: Avanzado (certificación convalidada)</li>
+        </ul>
+    </section>
 
-    <div class="section">
-        <h2 class="titulo">Referencias</h2>
-        <p>Referencias disponibles a petición.</p>
-    </div>
-
-    <hr size="8px" color="black" />
-
-    <div class="section">
-        <h2 class="titulo">Formulario de Contacto</h2>
+    <section id="contacto" class="section">
+        <h2>Formulario de Contacto</h2>
         <form action="#" method="post">
             <label for="nombre">Nombre:</label><br>
             <input type="text" id="nombre" name="nombre"><br>
@@ -97,36 +112,16 @@
             <textarea id="mensaje" name="mensaje"></textarea><br>
             <input type="submit" value="Enviar">
         </form>
-    </div>
+    </section>
 
-    <hr size="8px" color="black" />
 
-    <div class="section">
-        <h2 class="titulo">Multimedia</h2>
-        <h3>Imagen</h3>
-        <img src="https://via.placeholder.com/500" alt="Imagen de ejemplo">
-
-        <hr size="8px" color="black" />
-
-        <h3>Video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=s38W-RGEApc" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-    <hr size="8px" color="black" />
-
-    <div class="section">
-        <h2 class="titulo">Mapa</h2>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255168.199386282!2d-80.14491388108542!3d-2.1524923530223252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d13cbe855805f%3A0x8015a492f4fca473!2sGuayaquil!5e0!3m2!1ses-419!2sec!4v1716215086086!5m2!1ses-419!2sec"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-    <hr size="8px" color="black" />
+    <section id="mapa" class="section">
+        <h2>Lugar donde estudio:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31896.12132298742!2d-79.99752838437502!3d-2.1478802000000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses!2sec!4v1717556480462!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 
     <footer>
-        <h2 class="titulo">Redes Sociales</h2>
+        <h2> Mis Redes Sociales</h2>
         <div class="social-links">
             <a href="https://www.linkedin.com/in/tu-perfil-linkedin" target="_blank">LinkedIn</a>
             <a href="https://twitter.com/danymat2014" target="_blank">Twitter</a>
